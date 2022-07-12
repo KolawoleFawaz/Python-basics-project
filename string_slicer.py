@@ -10,7 +10,7 @@ def slice(strings):
     for x in range(len(strings)):
         if x % 2 == 0:
             result+= strings[x]
-    return result
+    return print(result)
 slice("fawaz")
     
     
