@@ -6,7 +6,7 @@
 
 def sol(n):
     solution = n + int(str(n)+str(n)) + int(str(n)+str(n)+str(n))
-    return solution
+    return print(solution)
 sol(5)
 
 
