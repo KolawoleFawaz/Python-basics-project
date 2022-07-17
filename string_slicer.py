@@ -4,14 +4,14 @@
 # In[27]:
 
 
-def slice(strings):
+def slice_string(strings):
     result = ""
     
     for x in range(len(strings)):
         if x % 2 == 0:
             result+= strings[x]
     return print(result)
-slice("fawaz")
+slice_string("fawaz")
     
     
 
